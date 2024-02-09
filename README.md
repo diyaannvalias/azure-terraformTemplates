@@ -8,9 +8,9 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 
 sudo apt update && sudo apt install terraform
 
-Commands to install azuer CLI
+Commands to install azure CLI
 -----------------------------------------------------
 
-sudo apt install azure-cli
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
 
